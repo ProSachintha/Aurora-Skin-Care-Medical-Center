@@ -1,0 +1,154 @@
+main{
+    width: 100%;
+    height: 100%;
+    
+    .body{
+        overflow: hidden;
+        overflow-y: hidden;
+        width: 100%;
+        height: 100%;
+        .box{
+            position: fixed;
+            border: solid;
+            border-radius: 50%;
+            
+        }
+        #larg{
+            border-color: #991932;
+            width: 335px;
+            height: 335px;
+            margin-left: -180px;
+            margin-top: 10vh;
+
+        }
+        #larg2{
+            border-color: #327897;
+            width: 215px;
+            height: 215px;
+            margin-left: -125px;
+            margin-top: 28vh;
+        }
+        #larg3{
+            border-color: #991932;
+            background-color: #991932;
+            width: 30px;
+            height: 30px;
+            margin-left: 90vw;
+            margin-top: 10vh;
+
+        }
+        #larg4{
+            border-color: #991932;
+            background-color: #991932;
+            width: 30px;
+            height: 30px;
+            margin-left: 75vw;
+            margin-top: 80vh;
+
+        }
+        #larg5{
+            border-color: #991932;
+            background-color: #991932;
+            width: 30px;
+            height: 30px;
+            margin-left: 125px;
+            margin-top: 70vh;
+
+        }
+        #larg6{
+            border-color: #327897;
+            background-color: #327897;
+            width: 30px;
+            height: 30px;
+            margin-left: 70vw;
+            margin-top: 30vh;
+            
+        }
+        #larg7{
+            border-color: #991932;
+            background-color: #991932;
+            width: 250px;
+            height: 250px;
+            margin-left: 90vw;
+            margin-top: 40vh;
+            
+        }
+        #larg8{
+            border-color: #327897;
+            background-color: #327897;
+            width: 250px;
+            height: 250px;
+            margin-left: 20vw;
+            margin-top: 80vh;
+        }
+        .mid{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 20px;
+            
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            .name{
+                
+                
+                
+                h1{
+                    font-family: 'Courier New', Courier, monospace;
+                   
+                    font-size: 64px;
+                    
+                }
+                h4{
+                   margin-top: -45px; 
+                }
+
+            }
+        }
+        .authbox{
+            width: 25vw;
+            height: 70vh;
+            background-color: rgb(153, 25, 50,0.5);
+            border-radius: 10px;
+            position: sticky;
+            margin-left: 38%;
+            
+            h3{
+                width: 100%;
+                text-align: center;
+                padding-top: 20px;
+                font-size: x-large;
+            }
+            form{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                .radios{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                .labels{
+                    width: 100%;
+                    display: flex;
+                    padding-left: 70px;
+                }
+                .input{
+                    width: 80%;
+                    height: 30px;
+                    border-end-end-radius: 10px;               
+                 }
+                 .in{
+                    width: 8s0px;
+                    border-radius: 15;
+                    height: 40px;
+                 }
+            }
+        }
+    }
+}
