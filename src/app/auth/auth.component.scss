@@ -109,46 +109,82 @@ main{
             }
         }
         .authbox{
-            width: 25vw;
-            height: 70vh;
-            background-color: rgb(153, 25, 50,0.5);
+            width: 300px;
+            height: 350px;
+            background-color: rgb(153, 25, 50,0.7);
             border-radius: 10px;
             position: sticky;
-            margin-left: 38%;
+            margin-left: 40%;
             
             h3{
                 width: 100%;
                 text-align: center;
                 padding-top: 20px;
                 font-size: x-large;
+                color: white;
             }
             form{
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
+                
+                .selection{
+                    width: 85%;
+                    text-align: left;
+                    font-weight: bold;
+                    font-size: 15px;
+
+                }
 
                 .radios{
-                    width: 100%;
+                    width: 85%;
+                    height: 10px;
                     display: flex;
-                    justify-content: space-evenly;
+                    justify-content: left;
+                    font-weight: bold;
+                    font-size: 16px;
+                    gap: 20px;
+                }
+                .radio{
+                    width: 14px;
+                    height: 14px;
                 }
                 .labels{
                     width: 100%;
+                    height: 2px;
                     display: flex;
                     padding-left: 70px;
+                    font-size: 12px;
+                    font-weight: bold;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    
                 }
                 .input{
                     width: 80%;
-                    height: 30px;
-                    border-end-end-radius: 10px;               
+                    height: 20px;
+                    border-radius: 5px; 
+                    font-size: 8px;              
                  }
-                 .in{
-                    width: 8s0px;
-                    border-radius: 15;
-                    height: 40px;
+                 #forget{
+                    width: 60%;
+                    color: #124A63;
+                    font-size: small;
+                    height: 10px;
+                    display: flex;
+                    justify-content: right;
+                    text-align: right;
+                    
+                }
+                .in{
+                    width: 105px;
+                    border-radius: 7px;
+                    height: 24px;
+                    background: linear-gradient(to right, #327897 , #991932);
+                    color: white;
                  }
             }
         }
     }
+    
 }

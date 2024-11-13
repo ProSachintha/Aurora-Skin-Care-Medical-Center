@@ -24,16 +24,22 @@
         <div class="authbox">
             <h3>SIGN IN</h3>
             <form action="">
+                <span class="selection">Select User Type</span><br>
                 <div class="radios">
-                    <input type="radio" name="JOB" value="cashior"> <span>Cashior</span><br>
-                    <input type="radio" name="JOB" value="doctor"><span>Doctor</span><br>
+                    <div>
+                        <input type="radio" name="JOB" value="cashior" class="radio"> <span>Cashior</span>
+                    </div>
+                    <div>
+                        <input type="radio" name="JOB" value="doctor" class="radio"><span>Doctor</span>
+                    </div>
 
                 </div><br><br>
-                <span class="labels">USER NAME</span><br>
-                <input type="text" name="name" class="input" placeholder="User Name" required><br>
+                <span class="labels">Email Address</span><br>
+                <input type="text" name="name" class="input" placeholder="Enter Email Address" required><br>
                 <span class="labels">PASSWORD</span><br>
-                <input type="password" name="password" class="input" placeholder="Password" required><br>
-                <input type="submit" class="in" value="Sign In">
+                <input type="password" name="password" class="input" placeholder="Enter Password" required><br>
+                <span class="labels" id="forget">Forget Password</span><br>
+                <input type="submit" class="in" value="SIGN IN">
 
             </form>
         </div>
