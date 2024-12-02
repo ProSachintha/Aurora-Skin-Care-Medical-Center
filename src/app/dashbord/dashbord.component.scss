@@ -1,0 +1,347 @@
+main{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(154, 25, 51,0.18);
+    
+    header{
+        .topbar{
+            width: 100%;
+            height: 10vh;
+            background-image: linear-gradient(to right , #7ECAEB , #124A63);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .left{
+                display: flex;
+                flex-direction: row;
+
+                .menu_icon{
+                    padding: 10px;
+                }
+                .logo_box{
+                    padding-top: 5px;
+                    display: flex;
+                    flex-direction: row;
+                    .logo{
+                        width: 46px;
+                        height: 46px;
+                        padding-left: 10px;
+                        padding-bottom: 5px;
+                        
+                    }
+                    .logo_name{
+                        display:flex;
+                        flex-direction: column;
+                        gap: -20px;
+                        h3{
+                            padding-top: -10px;
+                        }
+                        h2{
+                            padding-bottom: -10px;
+                        }
+                    }
+                }
+            }
+            .right{
+                display: flex;
+                flex-direction: row;
+                .notification,.profile{
+                    width: 46px;
+                    height: 46px;
+                    padding-top: 10px;
+                    padding-bottom: 5px;
+                    padding: 10px;
+                }
+                
+            }
+        }
+        .toppanal{
+            width: 100%;
+            height: 10vh;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            .grating_msg{
+                padding: 10px;
+            }
+            .serch_box{
+                padding: 15px;
+                .serch{
+                    width: 80vh;
+                    height: 5vh;
+                    border-radius: 7px;
+                    padding-left: 10px;
+                    background-image: url("../../assets/img/search.png");
+                    background-repeat: no-repeat;
+                    background-position: 97% 6px;
+                    background-size: 20px;
+                }
+            }
+        }
+    }
+    body{
+        width: 100%;
+        height: 80vh;
+        
+        .summery_box{
+            width: 100%;
+            height: 20vh;
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            // flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 20px;
+            
+
+            .sum_box{
+                width: 12%;
+                height: 15vh;
+                padding-left: 6px;
+                padding-right: 6px;
+                padding-top: 10px;
+                background-image: linear-gradient(to bottom , #991932 , #327897);
+                border-radius: 5px;
+                color: white;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                margin: 0;
+            }
+            // #five,#six,#seven{
+            //     margin-top: -80px;
+            // }
+            .sum_box:nth-of-type(1) {
+                margin-left: 5vw; /* Push next item to the new row */
+              }
+            .sum_box:nth-of-type(7) {
+                margin-right: 5vw; /* Push next item to the new row */
+              }
+            
+        }
+        .task_panal{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 5px;
+            #one{
+                width: 35%;
+                height: 25vh;
+                background-color: #ffffff;
+                border-radius: 5px;
+
+                .doctoday{
+                    padding: 2px;
+                    
+                    caption{
+                        text-align: left;
+                        padding-bottom: 5px;
+                        padding-left: 5px;
+                        padding-top: 5px;
+                        img{
+                            width: 20px;
+                        }
+                    }
+                    .scroll{
+                        height: 18vh;
+                        overflow-x: auto;
+                        scrollbar-width: thin;
+                        tr{
+                            .one{
+                                .down_arrow{
+                                    width: 20px;
+                                    
+                                }
+                            }
+                            .two{
+                                width: 15vw;
+                                font-family: 'Times New Roman', Times, serif;
+                            }
+                            .three{
+                                width: 10vw;
+                                color: #00C123;
+                            }
+                            .four{
+                                width: 5vw;
+                                .book_button{
+                                    width: 124.29px;
+                                    background-color:#FF0000;
+                                    border-radius: 5px;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+            #two{
+                width: 35%;
+                height: 25vh;
+                background-color: #ffffff;
+                border-radius: 5px;
+                .pend_payment{
+                    padding: 2px;
+                    
+                    caption{
+                        text-align: left;
+                        padding-bottom: 5px;
+                        padding-left: 5px;
+                        padding-top: 5px;
+                        img{
+                            width: 20px;
+                        }
+                    }
+                    .scroll{
+                        height: 14vh;
+                        overflow-x: auto;
+                        scrollbar-width: thin;
+                        tr{
+                            .one{
+                                
+                                    width: 20px;
+                                    
+                                
+                            }
+                            .two{
+                                width: 13vw;
+                                font-family: 'Times New Roman', Times, serif;
+                            }
+                            .three{
+                                width: 10vw;
+                                color: #00C123;
+                                .View_Details{
+                                    width: 124.29px;
+                                    background-color:#ffffff;
+                                    border-radius: 5px;
+                                }
+                            }
+                            .four{
+                                width: 5vw;
+                                .pay{
+                                    width: 124.29px;
+                                    background-color:#327897;
+                                    border-radius: 5px;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .panal:nth-of-type(1) {
+                margin-left: 5vw; /* Push next item to the new row */
+            }
+            .panal:nth-of-type(2) {
+                margin-right: 5vw; /* Push next item to the new row */
+            }
+            #three{
+                width: 25%;
+                height: 25vh;
+                background-color: #ffffff;
+                border-radius: 5px;
+                .pay_sum{
+                    padding: 2px;
+                    padding-top: 10px;
+                    
+                    caption{
+                        text-align: left;
+                        padding-bottom: 5px;
+                        padding-left: 5px;
+                        padding-top: 5px;
+                        img{
+                            width: 20px;
+                        }
+                    }
+                    .scroll{
+                        height: 14vh;
+                        overflow-x: auto;
+                        scrollbar-width: thin;
+                        tr{
+                            .one{
+                                
+                                width: 25vw;
+                                
+                                
+                            }
+                            .two{
+                                width: 15vw;
+                                font-family: 'Times New Roman', Times, serif;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            #four{
+                width: 45%;
+                height: 25vh;
+                background-color: #ffffff;
+                border-radius: 5px;
+                .pend_payment{
+                    padding: 2px;
+                    
+                    caption{
+                        text-align: left;
+                        padding-bottom: 5px;
+                        padding-left: 5px;
+                        padding-top: 5px;
+                        img{
+                            width: 20px;
+                        }
+                    }
+                    .scroll{
+                        height: 14vh;
+                        overflow-x: auto;
+                        scrollbar-width: thin;
+                        tr{
+                            .one{
+                                
+                                    width: 20px;
+                                    
+                                
+                            }
+                            .two{
+                                width: 13vw;
+                                font-family: 'Times New Roman', Times, serif;
+                            }
+                            .three{
+                                width: 10vw;
+                                color: #00C123;
+                                .View_Details{
+                                    width: 124.29px;
+                                    background-color:#ffffff;
+                                    border-radius: 5px;
+                                }
+                            }
+                            .four{
+                                width: 5vw;
+                                .pay{
+                                    width: 124.29px;
+                                    background-color:#327897;
+                                    border-radius: 5px;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            .panal:nth-of-type(3) {
+                margin-left: 5vw; /* Push next item to the new row */
+              }
+            .panal:nth-of-type(4) {
+                margin-right: 5vw; /* Push next item to the new row */
+              }
+            
+        }
+    }
+}
