@@ -1,6 +1,6 @@
 main{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     margin: 0;
     padding: 0;
     background-color: rgb(154, 25, 51,0.18);
@@ -73,7 +73,7 @@ main{
                 .serch{
                     width: 80vh;
                     height: 5vh;
-                    border-radius: 7px;
+                    border-radius: 15px;
                     padding-left: 10px;
                     background-image: url("../../assets/img/search.png");
                     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ main{
     }
     body{
         width: 100%;
-        height: 80vh;
+        height: 100vh;
         
         .summery_box{
             width: 100%;
@@ -93,7 +93,7 @@ main{
             display: flex;
             flex-direction: row;
             gap: 40px;
-            // flex-wrap: wrap;
+            flex-wrap: wrap;
             justify-content: center;
             padding-top: 20px;
             
@@ -105,7 +105,7 @@ main{
                 padding-right: 6px;
                 padding-top: 10px;
                 background-image: linear-gradient(to bottom , #991932 , #327897);
-                border-radius: 5px;
+                border-radius: 15px;
                 color: white;
                 text-align: center;
                 display: flex;
@@ -117,15 +117,15 @@ main{
             //     margin-top: -80px;
             // }
             .sum_box:nth-of-type(1) {
-                margin-left: 5vw; /* Push next item to the new row */
+                margin-left: 15vw; /* Push next item to the new row */
               }
-            .sum_box:nth-of-type(7) {
-                margin-right: 5vw; /* Push next item to the new row */
+            .sum_box:nth-of-type(4) {
+                margin-right: 15vw; /* Push next item to the new row */
               }
             
         }
         .task_panal{
-            
+            padding-top: 150px;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -135,7 +135,7 @@ main{
                 width: 35%;
                 height: 25vh;
                 background-color: #ffffff;
-                border-radius: 5px;
+                border-radius: 15px;
 
                 .doctoday{
                     padding: 2px;
